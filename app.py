@@ -186,6 +186,7 @@ df_asistencias_diarias = asistencias_diarias.to_frame()
 
 
 app = Dash(__name__)
+server = app.server
 
 # Layoutt
 
